@@ -6,13 +6,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.mdm.sh",
-    src: "bin/init.mdm.sh",
-    filename_from_src: true,
-    vendor: true,
-}
-
-sh_binary {
     name: "init.qcom.early_boot.sh",
     src: "bin/init.qcom.early_boot.sh",
     filename_from_src: true,
