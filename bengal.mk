@@ -164,10 +164,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64
 
-# Configs File System
-PRODUCT_PACKAGES += \
-    fs_config_files
-
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
