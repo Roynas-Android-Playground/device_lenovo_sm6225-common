@@ -93,9 +93,12 @@ BOARD_KERNEL_CMDLINE += \
     swiotlb=2048
 BOARD_KERNEL_CMDLINE += cgroup_disable=pressure
 
+# Kernel Source
 TARGET_KERNEL_CONFIG := grass-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/lenovo/tb128fu
+TARGET_KERNEL_NO_GCC := true
 
+# Prebuilt dtb/dtbo
 TARGET_PREBUILT_DTB := $(COMMON_PATH)/prebuilt/dtb.img
 TARGET_PREBUILT_RECOVERY_DTBO := $(COMMON_PATH)/prebuilt/dtbo.img
 BOARD_PREBUILT_RECOVERY_DTBOIMAGE := $(TARGET_PREBUILT_RECOVERY_DTBO)
