@@ -6,9 +6,6 @@
 
 COMMON_PATH := device/lenovo/sm6225-common
 
-# APEX
-DEXPREOPT_GENERATE_APEX_IMAGE := true
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
