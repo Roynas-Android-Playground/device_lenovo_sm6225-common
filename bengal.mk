@@ -195,8 +195,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     vendor.qti.hardware.memtrack-service \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-    android.hardware.renderscript@1.0-impl
+    vendor.lineage.livedisplay@2.0-service-sdm
 
 PRODUCT_PACKAGES += \
     init.qti.display_boot.rc \
