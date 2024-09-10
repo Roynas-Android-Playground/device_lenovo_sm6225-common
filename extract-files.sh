@@ -64,7 +64,14 @@ function blob_fixup() {
 		   hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/130A0094/1F2003D5/g" | xxd -r -p > "${TMPDIR}/${1##*/}"
 		   mv "${TMPDIR}/${1##*/}" "${2}"
 		   ;;
+		vendor/lib64/libwvhidl.so)
+		   "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
+		   ;;
+		*)
+		   return 1
 	esac
+
+	return 0
 }
 
 if [ -z "${ONLY_TARGET}" ]; then
