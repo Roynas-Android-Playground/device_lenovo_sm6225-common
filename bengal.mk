@@ -195,12 +195,11 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     vendor.qti.hardware.memtrack-service \
-    vendor.lineage.livedisplay@2.0-service-sdm
+    vendor.lineage.livedisplay@2.0-service-sdm \
+    android.hardware.renderscript@1.0-impl
 
 PRODUCT_PACKAGES += \
-    gralloc.bengal
-
-PRODUCT_PACKAGES += \
+    init.qti.display_boot.rc \
     init.qti.display_boot.sh \
     libdisplayconfig.qti \
     libdisplayconfig.system.qti \
