@@ -230,6 +230,9 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
+# Kernel
+PRODUCT_ENABLE_UFFD_GC := true
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl
