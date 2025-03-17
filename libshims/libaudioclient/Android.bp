@@ -1,8 +1,8 @@
 cc_library {
     name: "libaudioclient_shim",
     srcs: ["shim.cc"],
+    defaults: ["latest_android_media_audio_common_types_cpp_shared"],
     shared_libs: [
-        "android.media.audio.common.types-V3-cpp",
         "audioclient-types-aidl-cpp",
         "libaudioclient",
         "libaudioclient_aidl_conversion",
