@@ -499,17 +499,5 @@ PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libnl \
-    libwfdaac_vendor \
-    libgui_shim \
-    libaudioclient_shim:32 \
-    libui_gui_shim:32 \
-    libpng.vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Inherit the proprietary files
 $(call inherit-product, vendor/lenovo/sm6225-common/sm6225-common-vendor.mk)
