@@ -284,17 +284,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
 ifeq ($(TARGET_IS_ROW),)
-# Remove telephony apps
-PRODUCT_PACKAGES += \
-    RemovePackages.telephony
-
-# RRO
 PRODUCT_PACKAGES += \
     WifiOnlyOverlay
 endif
-
-PRODUCT_PACKAGES += \
-    RemovePackages.tablet
 
 # Rootdir
 PRODUCT_PACKAGES += \
