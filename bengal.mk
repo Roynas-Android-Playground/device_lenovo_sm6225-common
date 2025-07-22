@@ -178,7 +178,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service \
     vendor.lineage.livedisplay-service.sdm \
     init.qti.display_boot.rc \
-    init.qti.display_boot.sh
+    init.qti.display_boot.sh \
+    gralloc.qcom
 
 # DPM
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
