@@ -427,8 +427,6 @@ vendor/lib64/libqtikeymaster4.so
 # Listen
 vendor/lib/hw/sound_trigger.primary.bengal.so
 vendor/lib/libadpcmdec.so
-vendor/lib/libcapiv2svacnn.so
-vendor/lib/libcapiv2vop.so
 vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
@@ -444,6 +442,9 @@ vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc
 vendor/lib64/unnhal-acc-adreno.so
 vendor/lib64/unnhal-acc-common.so
 vendor/lib64/unnhal-acc-hvx.so
+
+# OMX
+vendor/etc/seccomp_policy/mediacodec.policy
 
 # Peripheral manager
 vendor/bin/pm-proxy
