@@ -90,7 +90,9 @@ BOARD_KERNEL_CMDLINE += \
     lpm_levels.sleep_disabled=1 \
     msm_rtb.filter=0x237 \
     service_locator.enable=1 \
-    swiotlb=2048
+    swiotlb=2048 \
+    androidboot.selinux=permissive
+
 BOARD_KERNEL_CMDLINE += cgroup_disable=pressure
 
 # Kernel Source
