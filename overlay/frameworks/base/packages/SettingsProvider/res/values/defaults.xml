@@ -19,5 +19,6 @@
 <resources>
     <!-- Disable Bluetooth by default -->
     <bool name="def_bluetooth_on">false</bool>
+    <!-- Enable auto rotation by default -->
     <bool name="def_accelerometer_rotation">true</bool>
 </resources>
