@@ -63,8 +63,8 @@ DEVICE_MANIFEST_FILE += \
 DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_lenovo_bengal
-TARGET_RECOVERY_DEVICE_MODULES ?= init_lenovo_bengal
+$(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):init_lenovo_bengal)
+TARGET_RECOVERY_DEVICE_MODULES := init_lenovo_bengal
 
 # Kernel
 BOARD_KERNEL_BASE        := 0x00000000
