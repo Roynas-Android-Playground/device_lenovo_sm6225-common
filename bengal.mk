@@ -175,7 +175,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.memtrack-service \
-    vendor.lineage.livedisplay@2.0-service-sdm \
+    vendor.lineage.livedisplay-service.sdm \
     init.qti.display_boot.rc \
     init.qti.display_boot.sh
 
