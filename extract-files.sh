@@ -67,6 +67,9 @@ function blob_fixup() {
 		vendor/lib64/libwvhidl.so | vendor/lib64/mediadrm/libwvdrmengine.so)
 		   "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
 		   ;;
+		vendor/lib64/libdpps.so)
+		   "${PATCHELF}" --replace-needed "libtinyxml2.so" "libtinyxml2-v34.so" "${2}"
+		   ;;
 		*)
 		   return 1
 	esac
