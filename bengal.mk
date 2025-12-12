@@ -27,6 +27,7 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 PRODUCT_CHARACTERISTICS := tablet
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
+TARGET_ENABLE_BLUR := false
 
 # AOSP Permissions
 PRODUCT_COPY_FILES += \
