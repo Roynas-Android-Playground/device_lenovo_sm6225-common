@@ -181,6 +181,8 @@ PRODUCT_PACKAGES += \
     init.qti.display_boot.sh \
     gralloc.qcom
 
+$(call soong_config_set,livedisplay_sdm,enable_dm,false)
+
 # DPM
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.dpm.feature=11
