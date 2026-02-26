@@ -88,7 +88,8 @@ BOARD_KERNEL_CMDLINE += \
     msm_rtb.filter=0x237 \
     service_locator.enable=1 \
     swiotlb=2048 \
-    androidboot.selinux=permissive
+    androidboot.selinux=permissive \
+    ramoops.mem_address=0x64000000 ramoops.mem_size=0x100000 ramoops.console_size=0x4000
 
 BOARD_KERNEL_CMDLINE += cgroup_disable=pressure
 
