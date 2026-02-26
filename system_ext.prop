@@ -66,9 +66,6 @@ rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 # Time-services
 persist.timed.enable=true
 
-# USB
-persist.sys.usb.config=adb
-
 # WFD settings
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
