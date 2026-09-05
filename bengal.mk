@@ -224,6 +224,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
     android.hardware.health-service.qti_recovery \
+    charger_res_images_vendor
 
 # IPACM
 PRODUCT_PACKAGES += \
